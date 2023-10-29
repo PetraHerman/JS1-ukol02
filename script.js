@@ -6,11 +6,11 @@
 const mnozstvi = Number(prompt("Zadej počet kusů:"))
 let cena = ""
 
-if (mnozstvi >= 1000) {
+if (mnozstvi > 1000) {
     cena = 120
-} else if (mnozstvi >= 500) {
+} else if (mnozstvi > 500) {
     cena = 150
-} else if (mnozstvi >= 200) {
+} else if (mnozstvi > 200) {
     cena = 200
 } else if (mnozstvi >= 50) {
     cena = 250
